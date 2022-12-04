@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_signup2">
+
+    <ImageView
+        android:id="@+id/homeSignUp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/home_icon"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="0dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="270dp"
+        android:layout_height="55dp"
+        android:background="@drawable/email"
+        android:hint="test@naver.com"
+        android:paddingTop="20dp"
+        android:paddingLeft="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="150dp"
+        android:textSize="15dp"/>
+
+    <EditText
+        android:id="@+id/editPass"
+        android:layout_width="270dp"
+        android:layout_height="55dp"
+        android:background="@drawable/password"
+        android:hint="*********"
+        android:paddingTop="20dp"
+        android:paddingLeft="10dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="15dp"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/editCpass"
+        android:layout_width="270dp"
+        android:layout_height="55dp"
+        android:background="@drawable/confirm_password"
+        android:hint="*********"
+        android:paddingTop="20dp"
+        android:paddingLeft="10dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="15dp"
+        android:inputType="textPassword"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:gravity="center">
+
+        <CheckBox
+            android:id="@+id/chkSignUp"
+            android:layout_width="25dp"
+            android:layout_height="15dp"
+            android:layout_marginRight="-5dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="13dp"
+            android:paddingTop="0dp"
+            android:src="@drawable/agree_msg" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/signup_button"
+        android:gravity="center"
+        android:paddingLeft="15dp"/>
+
+    </LinearLayout>
+</LinearLayout>
